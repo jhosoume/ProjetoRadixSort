@@ -2408,7 +2408,7 @@
  (merge_permutes 0
   (merge_permutes-1 nil 3747591401
    ("" (measure-induct+ "length(l1)+length(l2)" ("l1" "l2"))
-    (("" (skeep) (("" (postpone) nil nil)) nil)) nil)
+    (("" (postpone) nil nil)) nil)
    ((occurrences def-decl "nat" sorting nil)
     (null adt-constructor-decl "(null?)" list_adt nil)
     (null? adt-recognizer-decl "[list -> boolean]" list_adt nil)
